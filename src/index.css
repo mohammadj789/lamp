@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "persian";
+  src: url("../public/fonts/woff2/IRANYekanX-Regular.woff2")
+      format("woff2"),
+    url("../public/fonts/woff/IRANYekanX-Regular.woff") format("woff");
+  /* Add more src formats if necessary */
+  font-weight: normal;
+  font-style: normal;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "persian";
+  src: url("../public/fonts/woff2/IRANYekanX-Bold.woff2")
+      format("woff2"),
+    url("../public/fonts/woff/IRANYekanX-Bold.woff") format("woff");
+  /* Add more src formats if necessary */
+  font-weight: bold;
+  font-style: normal;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
