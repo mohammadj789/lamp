@@ -1,4 +1,3 @@
-import ReactSlider from "react-slider";
 import { convertSecondsToMMSS } from "../../utils/secondsToMuinets";
 import { ProgressBar } from "../ui/ProgressBar";
 import { ControllButtons } from "./ControllButtons";

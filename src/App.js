@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Player } from "./components/Player/Player";
 import data from "./utils/dummydata.json";
 import { Lyric } from "./components/Lyric/Lyric";
@@ -9,6 +9,7 @@ import { MobilePlayer } from "./components/Player/MobilePlayer";
 import { MobileFullPlayer } from "./components/Player/MobileFullPlayer";
 import { Transition } from "react-transition-group";
 import PlayList from "./components/PlayList/PlayList";
+const audio = new Audio("Hiphopologist - DMT.mp3");
 
 function App() {
   const [play, setPlay] = useState(null);
@@ -16,10 +17,6 @@ function App() {
   const [playerIsShown, setPlayerIsShown] = useState(false);
   const [volume, setVolume] = useState({ current: 1, mute: false });
   const [playList, setPlayList] = useState(false);
-  const audio = useMemo(
-    () => new Audio("Hiphopologist - DMT.mp3"),
-    []
-  );
 
   const setPlayHandler = () => {
     setPlay(true);
@@ -57,7 +54,7 @@ function App() {
     if (volume.mute) {
       audio.volume = 0;
     } else audio.volume = volume.current;
-  }, [volume, audio]);
+  }, [volume]);
 
   const toggleMuteHandller = () => {
     setVolume((prev) => {
