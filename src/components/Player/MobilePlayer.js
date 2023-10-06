@@ -62,7 +62,6 @@ export function MobilePlayer(props) {
           current={props.curTime}
           max={props.duration}
           ProgressClickHandlerr={null}
-          ProgressRef={null}
         />
       </div>
     </div>

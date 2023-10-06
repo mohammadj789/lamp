@@ -1,24 +1,20 @@
 import React, { forwardRef } from "react";
+import ReactSlider from "react-slider";
 
 export const ProgressBar = forwardRef((props, ref) => {
   return (
-    <div
-      ref={props.ProgressRef}
-      onClick={props.ProgressClickHandlerr}
+    <ReactSlider
       className={`${
         props.height ?? "h-1"
-      } rounded-sm bg-gray-700 w-full ${
-        props.opacity && "bg-white bg-opacity-25"
-      }`}
-    >
-      <div
-        className={`h-full rounded-sm bg-white transition-width duration-75 ease-in-out hover:bg-green-600`}
-        style={{
-          width: `${
-            (props.current / (!!props.max ? props.max : 1)) * 100
-          }%`,
-        }}
-      ></div>
-    </div>
+      } w-full h-1 rounded-3xl group`}
+      thumbClassName=" aspect-square h-[180%] rounded-full bg-white opacity-0 group-hover:opacity-100 top-[-40%] !outline-none"
+      // thumbClassName="hidden"
+      // thumbActiveClassName=""
+      trackClassName="bg-white bg-opacity-25  first:bg-white h-full rounded-3xl group-hover:first:bg-green-600"
+      value={props.current}
+      max={!!props.max ? props.max : 1}
+      min={0}
+      onChange={props.ProgressClickHandlerr}
+    />
   );
 });

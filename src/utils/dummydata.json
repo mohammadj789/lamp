@@ -1,134 +1,300 @@
-[
-  {
-    "text": "گیر کردم توو یه حباب شیشه ای",
-    "time": 17
-  },
-  {
-    "text": "دارم میبینم از ته یه جا دیگه",
-    "time": 19
-  },
-  {
-    "text": "دستات سرده، قلبت آتیشه",
-    "time": 21
-  },
-  {
-    "text": "شمال بارون نمیاد بعد ما دیگه",
-    "time": 24
-  },
-  {
-    "text": "روزی دو با یه نفر میاد بالا",
-    "time": 26
-  },
-  {
-    "text": "چک میکنه عددها مانیتورو",
-    "time": 28
-  },
-  {
-    "text": "مطمئن میشه منو نمیبینی",
-    "time": 30
-  },
-  {
-    "text": "مطمئن میشه که میبینم تو رو",
-    "time": 33
-  },
-  {
-    "text": "همه جا همه کارها که میکنی",
-    "time": 35
-  },
-  {
-    "text": "سینه هات خرابه سرفه میکنی",
-    "time": 38
-  },
-  {
-    "text": "عکسارو میبینی گریه میکنی",
-    "time": 40
-  },
-  {
-    "text": "الماس رو خوبه که خشک نمیکنی",
-    "time": 41
-  },
-  {
-    "text": "میزنم محکم مشتو به شیشه",
-    "time": 43
-  },
-  {
-    "text": "هی میاد صبح، دوباره شب میشه",
-    "time": 45
-  },
-  {
-    "text": "من معلقم کل روز روو هوا",
-    "time": 48
-  },
-  {
-    "text": "دور هاتو بزنی بخوابی شبا",
-    "time": 50
-  },
-  {
-    "text": "همه به دلداری، هی میگم بسه",
-    "time": 52
-  },
-  {
-    "text": "میگم فراموشش کن دیگه رفته",
-    "time": 54
-  },
-  {
-    "text": "تو هنوز امیدواری یه روز میام",
-    "time": 56
-  },
-  {
-    "text": "داد بزنم هیشکی نمیفهمه",
-    "time": 58
-  },
-  {
-    "text": "من توی حبابم، تو تووی اتاقت",
-    "time": 60
-  },
-  {
-    "text": "دیگه سرم نمیاد کسی دنبالت",
-    "time": 62
-  },
-  {
-    "text": "اگه لاشی بیاد و بشه مزاحم",
-    "time": 63
-  },
-  {
-    "text": "آپ ها رو خوشحال میکنی با خدافظ",
-    "time": 64
-  },
-  {
-    "text": "نمیشنوی واست بزنم بیت باکس",
-    "time": 65
-  },
-  {
-    "text": "واتسپ ندارم بفرستی بیگ بات",
-    "time": 66
-  },
-  {
-    "text": "منم دلتنگم، شب اینجا تنهام",
-    "time": 68
-  },
-  {
-    "text": "خوابت که نبره گوش کنی حرفام",
-    "time": 70
-  },
-  {
-    "text": "الآن که تنهام، دوس دارم سر پا",
-    "time": 72
-  },
-  {
-    "text": "ببینمت هر جایی، دستگاه هام باز شه",
-    "time": 74
-  },
-  {
-    "text": "شاید بمیرم همین فردایی",
-    "time": 76
-  },
-  {
-    "text": "بچه، پَ",
-    "time": 78
-  },
-  {
-    "text": "دنیارو نمیخوام اگه تو نباشی",
-    "time": 79
+{
+  "lyric": [
+    {
+      "text": "گیر کردم توو یه حباب شیشه ای",
+      "time": 17
+    },
+    {
+      "text": "دارم میبینم از ته یه جا دیگه",
+      "time": 19
+    },
+    {
+      "text": "دستات سرده، قلبت آتیشه",
+      "time": 21
+    },
+    {
+      "text": "شمال بارون نمیاد بعد ما دیگه",
+      "time": 24
+    },
+    {
+      "text": "روزی دو با یه نفر میاد بالا",
+      "time": 26
+    },
+    {
+      "text": "چک میکنه عددها مانیتورو",
+      "time": 28
+    },
+    {
+      "text": "مطمئن میشه منو نمیبینی",
+      "time": 30
+    },
+    {
+      "text": "مطمئن میشه که میبینم تو رو",
+      "time": 33
+    },
+    {
+      "text": "همه جا همه کارها که میکنی",
+      "time": 35
+    },
+    {
+      "text": "سینه هات خرابه سرفه میکنی",
+      "time": 38
+    },
+    {
+      "text": "عکسارو میبینی گریه میکنی",
+      "time": 40
+    },
+    {
+      "text": "الماس رو خوبه که خشک نمیکنی",
+      "time": 41
+    },
+    {
+      "text": "میزنم محکم مشتو به شیشه",
+      "time": 43
+    },
+    {
+      "text": "هی میاد صبح، دوباره شب میشه",
+      "time": 45
+    },
+    {
+      "text": "من معلقم کل روز روو هوا",
+      "time": 48
+    },
+    {
+      "text": "دور هاتو بزنی بخوابی شبا",
+      "time": 50
+    },
+    {
+      "text": "همه به دلداری، هی میگم بسه",
+      "time": 52
+    },
+    {
+      "text": "میگم فراموشش کن دیگه رفته",
+      "time": 54
+    },
+    {
+      "text": "تو هنوز امیدواری یه روز میام",
+      "time": 56
+    },
+    {
+      "text": "داد بزنم هیشکی نمیفهمه",
+      "time": 58
+    },
+    {
+      "text": "من توی حبابم، تو تووی اتاقت",
+      "time": 60
+    },
+    {
+      "text": "دیگه سرم نمیاد کسی دنبالت",
+      "time": 62
+    },
+    {
+      "text": "اگه لاشی بیاد و بشه مزاحم",
+      "time": 63
+    },
+    {
+      "text": "آپ ها رو خوشحال میکنی با خدافظ",
+      "time": 64
+    },
+    {
+      "text": "نمیشنوی واست بزنم بیت باکس",
+      "time": 65
+    },
+    {
+      "text": "واتسپ ندارم بفرستی بیگ بات",
+      "time": 66
+    },
+    {
+      "text": "منم دلتنگم، شب اینجا تنهام",
+      "time": 68
+    },
+    {
+      "text": "خوابت که نبره گوش کنی حرفام",
+      "time": 70
+    },
+    {
+      "text": "الآن که تنهام، دوس دارم سر پا",
+      "time": 72
+    },
+    {
+      "text": "ببینمت هر جایی، دستگاه هام باز شه",
+      "time": 74
+    },
+    {
+      "text": "شاید بمیرم همین فردایی",
+      "time": 76
+    },
+    {
+      "text": "بچه، پَ",
+      "time": 78
+    },
+    {
+      "text": "دنیارو نمیخوام اگه تو نباشی",
+      "time": 79
+    }
+  ],
+
+  "playlist": {
+    "info": {
+      "type": "public",
+      "title": "Cry Baby Every Thing Is Fucked",
+      "credit": {
+        "img": "girl.jpg",
+        "name": "mohammadj789",
+        "link": "/"
+      },
+      "image": "girl.jpg",
+      "count": 20,
+      "time": { "hour": 30, "minutes": 22 }
+    },
+    "songs": [
+      {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "album": "÷",
+        "duration": "3:53",
+        "genre": "Pop"
+      },
+      {
+        "title": "Someone Like You",
+        "artist": "Adele",
+        "album": "21",
+        "duration": "4:45",
+        "genre": "Pop"
+      },
+      {
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "album": "A Night at the Opera",
+        "duration": "5:55",
+        "genre": "Rock"
+      },
+      {
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "album": "Thriller",
+        "duration": "5:57",
+        "genre": "Pop"
+      },
+      {
+        "title": "Hey Jude",
+        "artist": "The Beatles",
+        "album": "The Beatles 1967-1970",
+        "duration": "7:11",
+        "genre": "Rock"
+      },
+      {
+        "title": "Uptown Funk",
+        "artist": "Mark Ronson ft. Bruno Mars",
+        "album": "Uptown Special",
+        "duration": "4:30",
+        "genre": "Pop"
+      },
+      {
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "album": "Hotel California",
+        "duration": "6:31",
+        "genre": "Rock"
+      },
+      {
+        "title": "Hallelujah",
+        "artist": "Leonard Cohen",
+        "album": "Various Positions",
+        "duration": "4:37",
+        "genre": "Folk"
+      },
+      {
+        "title": "Smooth",
+        "artist": "Santana ft. Rob Thomas",
+        "album": "Supernatural",
+        "duration": "4:56",
+        "genre": "Rock"
+      },
+      {
+        "title": "Thunderstruck",
+        "artist": "AC/DC",
+        "album": "The Razors Edge",
+        "duration": "4:52",
+        "genre": "Rock"
+      },
+      {
+        "title": "Rolling in the Deep",
+        "artist": "Adele",
+        "album": "21",
+        "duration": "3:48",
+        "genre": "Pop"
+      },
+      {
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "duration": "5:01",
+        "genre": "Grunge"
+      },
+      {
+        "title": "Sweet Child o' Mine",
+        "artist": "Guns N' Roses",
+        "album": "Appetite for Destruction",
+        "duration": "5:56",
+        "genre": "Rock"
+      },
+      {
+        "title": "Dancing Queen",
+        "artist": "ABBA",
+        "album": "Arrival",
+        "duration": "3:50",
+        "genre": "Pop"
+      },
+      {
+        "title": "Billie Jean",
+        "artist": "Michael Jackson",
+        "album": "Thriller",
+        "duration": "4:54",
+        "genre": "Pop"
+      },
+      {
+        "title": "Stairway to Heaven",
+        "artist": "Led Zeppelin",
+        "album": "Led Zeppelin IV",
+        "duration": "8:02",
+        "genre": "Rock"
+      },
+      {
+        "title": "Wannabe",
+        "artist": "Spice Girls",
+        "album": "Spice",
+        "duration": "2:52",
+        "genre": "Pop"
+      },
+      {
+        "title": "Boys Don't Cry",
+        "artist": "The Cure",
+        "album": "Boys Don't Cry",
+        "duration": "2:37",
+        "genre": "Post-Punk"
+      },
+      {
+        "title": "Smooth Criminal",
+        "artist": "Michael Jackson",
+        "album": "Bad",
+        "duration": "4:18",
+        "genre": "Pop"
+      },
+      {
+        "title": "Wonderwall",
+        "artist": "Oasis",
+        "album": "(What's the Story) Morning Glory?",
+        "duration": "4:18",
+        "genre": "Rock"
+      },
+      {
+        "title": "Shape of My Heart",
+        "artist": "Sting",
+        "album": "Ten Summoner's Tales",
+        "duration": "4:38",
+        "genre": "Pop"
+      }
+    ]
   }
-]
+}

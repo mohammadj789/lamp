@@ -1,3 +1,4 @@
+import ReactSlider from "react-slider";
 import { convertSecondsToMMSS } from "../../utils/secondsToMuinets";
 import { ProgressBar } from "../ui/ProgressBar";
 import { ControllButtons } from "./ControllButtons";
@@ -22,7 +23,7 @@ export function Controller(props) {
           ProgressRef={props.audioProgress}
         />
 
-        <span className="text-[.67rem] font-medium line text-gray-400">
+        <span className="text-[.67rem] font-medium line  text-gray-400">
           {props.duration
             ? convertSecondsToMMSS(props.duration)
             : "00:00"}

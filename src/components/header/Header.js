@@ -4,7 +4,7 @@ import { InventoryItem } from "./InventoryItem";
 
 export const Header = () => {
   return (
-    <aside className="flex flex-col items-start lg:items-center h-full w-64 lg:w-20 sm:hidden lg:px-0 px-4 pt-8 overflow-y-auto bg-gray-950 rounded-lg">
+    <aside className="flex flex-col transition-all items-start lg:items-center h-full w-64 lg:w-20 sm:hidden lg:px-0 px-4 pt-8 overflow-y-auto bg-gray-950 rounded-lg">
       {/* <a className="mb-6 lg:ms-0 ms-2" href="/#">
         <img
           className="w-auto h-6"

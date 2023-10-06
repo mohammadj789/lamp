@@ -1,8 +1,11 @@
-export function FloatingHeader() {
+export function FloatingHeader(props) {
   return (
     <div className="w-full h-12 bg-transparent absolute flex justify-between p-4">
       <div className="flex items-center gap-2 pt-5">
-        <button className="flex items-center justify-center bg-black bg-opacity-30 text-white rounded-full h-9 w-9 ">
+        <button
+          onClick={() => props.setPlayList((prev) => !prev)}
+          className="flex items-center justify-center bg-black bg-opacity-30 text-white rounded-full h-9 w-9 "
+        >
           <ion-icon
             style={{
               fontSize: "24px",
@@ -11,7 +14,10 @@ export function FloatingHeader() {
             name="chevron-back-outline"
           ></ion-icon>
         </button>
-        <button className="flex items-center justify-center bg-black bg-opacity-30 text-white rounded-full h-9 w-9 ">
+        <button
+          onClick={() => props.setPlayList((prev) => !prev)}
+          className="flex items-center justify-center bg-black bg-opacity-30 text-white rounded-full h-9 w-9 "
+        >
           <ion-icon
             style={{
               fontSize: "24px",

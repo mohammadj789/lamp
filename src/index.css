@@ -13,6 +13,7 @@
       format("woff2"),
     url("../public/fonts/woff/IRANYekanX-Bold.woff") format("woff");
   /* Add more src formats if necessary */
+
   font-weight: bold;
   font-style: normal;
 }

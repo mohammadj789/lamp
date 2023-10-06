@@ -4,7 +4,9 @@ import { ControllButtons } from "./ControllButtons";
 
 export function MobileFullPlayer(props) {
   return (
-    <div className="fixed hidden sm:flex gap-6 flex-col bg-slate-700 w-full h-full text-white p-3 overflow-hidden">
+    <div
+      className={`fixed hidden sm:flex gap-6 flex-col bg-slate-700 w-full h-full translate-y-[100%] transition-all text-white  p-3 overflow-hidden ${props.classes}`}
+    >
       <div className=" h-20 flex-shrink-0 flex justify-between items-center">
         <button
           onClick={props.hidehandller}
@@ -32,7 +34,7 @@ export function MobileFullPlayer(props) {
       <div className="h-full w-full flex items-center justify-center">
         <img
           src="/girl.jpg"
-          className="h-auto w-full rounded max-w-xs max-h-80 object-cover "
+          className="h-auto w-full aspect-square rounded max-w-xs max-h-80 object-cover "
           alt=" cover"
         />
       </div>
@@ -58,11 +60,10 @@ export function MobileFullPlayer(props) {
         <div className="flex flex-col px-2">
           <ProgressBar
             opacity
-            height={"h-3"}
+            height={"h-2"}
             current={props.curTime}
             max={props.audio.duration}
             ProgressClickHandlerr={props.audioProgressClickHandlerr}
-            ProgressRef={props.audioProgress}
           />
           <div className="flex justify-between">
             <p className="text-xs text-gray-300">
