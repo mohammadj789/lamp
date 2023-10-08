@@ -9,6 +9,7 @@ import { MobilePlayer } from "./components/Player/MobilePlayer";
 import { MobileFullPlayer } from "./components/Player/MobileFullPlayer";
 import { Transition } from "react-transition-group";
 import PlayList from "./components/PlayList/PlayList";
+import Profile from "./components/profile/Profile";
 const audio = new Audio("Hiphopologist - DMT.mp3");
 
 function App() {
@@ -73,20 +74,22 @@ function App() {
   };
 
   return (
-    <div className="grid box-border font-Poppins font-bold grid-cols-[16rem_1fr] lg:grid-cols-[5rem_1fr] h-screen min-h-screen  sm:h-[100dvh] sm:min-h-[100dvh] bg-black w-screen relative ">
+    <div className="grid box-border font-Poppins font-medium grid-cols-[16rem_1fr] lg:grid-cols-[5rem_1fr] h-screen min-h-screen  sm:h-[100dvh] sm:min-h-[100dvh] bg-black w-screen relative ">
       <Header />
       <div className="overflow-hidden relative sm:h-[calc(100dvh-70px)]  rounded-md sm:col-span-full">
         <FloatingHeader setPlayList={setPlayList} />
 
-        {playList ? (
+        {playList === true ? (
           <PlayList />
-        ) : (
+        ) : playList === false ? (
           <Lyric
             data={data.lyric}
             curTime={curTime}
             setCurTime={setCurTime}
             changeHandler={changeByLyricHandler}
           />
+        ) : (
+          <Profile />
         )}
       </div>
       <Player

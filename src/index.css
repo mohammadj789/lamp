@@ -17,6 +17,9 @@
   font-weight: bold;
   font-style: normal;
 }
+:root {
+  --card-gap: 2rem;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
