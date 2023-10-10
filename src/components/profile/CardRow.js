@@ -11,9 +11,11 @@ export function CardRow(props) {
         <h2 className="font-bold text-xl text-white mb-1">
           {props.title}
         </h2>
-        <button className="text-xs text-gray-300">Show More</button>
+        <button className="text-xs text-gray-300 sm:hidden">
+          Show More
+        </button>
       </div>
-      <div className=" flex flex-nowrap gap-[calc(10%/5)] lg:gap-[calc(10%/4)] md:gap-[calc(10%/3)] sm:gap-[calc(10%/2)] overflow-hidden">
+      <div className=" flex flex-nowrap gap-[calc(10%/5)] lg:gap-[calc(10%/4)] md:gap-[calc(10%/3)] sm:gap-[calc(10%/2)] overflow-hidden sm:overflow-auto">
         {props.data.map((item) => (
           <div className="w-[calc(90%/6)]  lg:w-[calc(90%/5)] md:w-[calc(90%/4)] sm:w-[calc(90%/3)] flex-shrink-0 ">
             <Card />
