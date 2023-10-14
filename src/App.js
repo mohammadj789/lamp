@@ -74,7 +74,7 @@ function App() {
   };
 
   return (
-    <div className="grid box-border font-Poppins font-medium grid-cols-[16rem_1fr] lg:grid-cols-[5rem_1fr] h-screen min-h-screen  sm:h-[100dvh] sm:min-h-[100dvh] bg-black w-screen relative ">
+    <div className="grid box-border font-Poppins font-medium grid-cols-[16rem_1fr] lg:grid-cols-[5rem_1fr] h-screen min-h-screen  sm:h-[100dvh] sm:min-h-[100dvh] bg-black w-screen relative  max-w-[1600px]">
       <Header />
       <div className="overflow-hidden relative sm:h-[calc(100dvh-70px)]  rounded-md sm:col-span-full">
         <FloatingHeader setPlayList={setPlayList} />

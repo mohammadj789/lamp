@@ -5,7 +5,7 @@ import { CardRow } from "./CardRow";
 
 const Profile = () => {
   return (
-    <div className="h-full overflow-auto">
+    <div className="h-full overflow-auto sm:pb-16">
       <InfoHeader
         type={"artist"}
         image={"girl.jpg"}

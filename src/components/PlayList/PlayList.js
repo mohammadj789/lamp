@@ -5,7 +5,7 @@ import { InfoHeader } from "./InfoHeader";
 
 export default function PlayList() {
   return (
-    <div className="overflow-auto h-full">
+    <div className="overflow-auto h-full sm:pb-16">
       <InfoHeader
         type={"playList"}
         status={data.playlist.info.type}

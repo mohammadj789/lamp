@@ -5,7 +5,7 @@ import { ControllButtons } from "./ControllButtons";
 export function MobileFullPlayer(props) {
   return (
     <div
-      className={`fixed hidden sm:flex gap-6 flex-col bg-slate-700 w-full h-full translate-y-[100%] transition-all text-white  p-3 overflow-hidden ${props.classes}`}
+      className={`fixed hidden sm:flex gap-6 flex-col z-50 bg-slate-700 w-full h-full translate-y-[100%] transition-all text-white  p-3 overflow-hidden ${props.classes}`}
     >
       <div className=" h-20 flex-shrink-0 flex justify-between items-center">
         <button

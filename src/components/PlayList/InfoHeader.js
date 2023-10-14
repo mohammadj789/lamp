@@ -60,7 +60,7 @@ export function InfoHeader(props) {
         </div>
       )}
 
-      <div className="w-full flex  items-start justify-end jus flex-col text-white z-50">
+      <div className="w-full flex  items-start justify-end jus flex-col text-white z-10">
         <p>{props.status}</p>
 
         <h1 className="text-6xl font-bold sm:text-4xl shrink-0 line-clamp-2 mb-4 leading-[80px] sm:leading-[45px]">

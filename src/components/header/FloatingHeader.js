@@ -1,6 +1,6 @@
 export function FloatingHeader(props) {
   return (
-    <div className="w-full bg-transparent absolute flex justify-between p-2 z-50">
+    <div className="w-full bg-transparent absolute flex justify-between p-2 z-20">
       <div className="flex items-center gap-2">
         <button
           onClick={() => props.setPlayList((prev) => !prev)}
